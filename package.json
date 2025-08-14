@@ -1,0 +1,14 @@
+{
+  "name": "lab_3.1",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Lab 3.1: Secure password storage + migration",
+  "main": "demo.js",
+  "scripts": {
+    "seed": "node seedPlainUser.js",
+    "demo": "node demo.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3"
+  }
+}
